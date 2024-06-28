@@ -5,7 +5,13 @@ def main():
             inputInteger1 = int(input(''))
             inputInteger2 = int(input(''))
             
-            if begin > 1 
+            if inputInteger1 > 1 and inputInteger2 > inputInteger1:
+                break
+            else:
+                print('Invalid')
+        except ValueError:
+            
+            
     
     
     
