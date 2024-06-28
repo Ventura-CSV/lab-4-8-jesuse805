@@ -14,8 +14,8 @@ def main():
                 if i % j == 0:
                     countValue = countValue + 1
                     break
-        if countValue == 0:
-            plist.append(i)
+            if countValue == 0:
+                plist.append(i)
     print(plist)
             
     
