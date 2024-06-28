@@ -1,9 +1,18 @@
 def main():
+    
+    while True:
+        try:
+            inputInteger1 = int(input(''))
+            inputInteger2 = int(input(''))
+            
+            if begin > 1 
+    
+    
+    
+    
+    
     plist = []
-    ##################################################
-    # Comlete your code here
-    ##################################################
-
+    
     return plist
 
 
