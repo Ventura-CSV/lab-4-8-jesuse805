@@ -2,8 +2,8 @@ def main():
     
     plist = []
     
-    inputInteger1 = int(input(''))
-    inputInteger2 = int(input(''))
+    inputInteger1 = int(input('Enter the starting integer: '))
+    inputInteger2 = int(input('Enter the ending integer: '))
             
     if inputInteger1 <= 1 or inputInteger2 <= 1 or inputInteger2 < inputInteger1:
         print('Value Error')
@@ -13,7 +13,7 @@ def main():
             for j in range(2, i):
                 if i % j == 0:
                     countValue = countValue + 1
-                break
+                    break
         if countValue == 0:
             plist.append(i)
     print(plist)
